@@ -1,0 +1,27 @@
+.mr-btm-small {
+  margin-bottom: 2rem;
+}
+.mr-btm-medium {
+  margin-bottom: 4rem;
+}
+.mr-btm-big {
+  margin-bottom: 6rem;
+}
+.mr-small {
+  margin: 2rem;
+}
+.mr-medium {
+  margin: 4rem;
+}
+.mr-big {
+  margin: 6rem;
+}
+.color-sec {
+  color: $color-secondary;
+}
+.row {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+}

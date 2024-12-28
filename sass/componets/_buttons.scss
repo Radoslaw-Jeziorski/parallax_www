@@ -1,0 +1,35 @@
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  display: inline-block;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+
+  border: 2px solid transparent;
+  cursor: pointer;
+  transition: all 0.4s ease-in-out;
+
+  &:hover {
+    transform: translateY(-0.5rem);
+  }
+  &--header {
+    margin: 1rem;
+  }
+  &--primary {
+    color: lighten($color-secondary, 20);
+    background-color: $color-primary;
+    &:hover {
+      background-color: darken($color-primary, 15);
+    }
+  }
+  &--primary-border {
+    color: $color-secondary;
+    border: 2px solid $color-primary;
+    &:hover {
+      background-color: $color-primary;
+      border: 2px solid $color-secondary;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.footer {
+  padding: 2rem 0;
+  background-color: $color-tertiary;
+
+  &__copy {
+    font-size: 1.7rem;
+    &-link {
+      text-decoration: none;
+      font-weight: 700;
+      color: $color-primary;
+    }
+  }
+
+  &__icons {
+    margin-right: 1rem;
+  }
+
+  &__icon {
+    font-size: 1.3rem;
+    text-decoration: none;
+    color: $color-secondary;
+    &:not(:last-child) {
+      margin-right: 1rem;
+    }
+    & i {
+      transition: all 0.4s ease-in-out;
+    }
+    &:hover i {
+      transform: translateY(-1rem) rotate(3deg);
+      color: $color-primary;
+    }
+  }
+}
